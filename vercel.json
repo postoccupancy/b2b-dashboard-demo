@@ -3,16 +3,8 @@
   "installCommand": "npm ci",
   "devCommand": "npm run dev",
   "framework": "nextjs",
-  "env": [
-    {
-      "key": "NEXT_PUBLIC_API_URL",
-      "value": "@next_public_api_url",
-      "type": "secret"
-    },
-    {
-      "key": "NEXT_PUBLIC_MAPBOX_TOKEN",
-      "value": "@next_public_mapbox_token",
-      "type": "secret"
-    }
-  ]
+  "env": {
+    "NEXT_PUBLIC_API_URL": "@next_public_api_url",
+    "NEXT_PUBLIC_MAPBOX_TOKEN": "@next_public_mapbox_token"
+  }
 }
