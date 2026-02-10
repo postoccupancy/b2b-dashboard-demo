@@ -13,3 +13,4 @@ updates:
         update-types:
           - "version-update:semver-minor"
           - "version-update:semver-patch"
+# change this line to trigger re-run
